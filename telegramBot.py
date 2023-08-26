@@ -57,7 +57,7 @@ dp = Dispatcher(bot)
 async def command_start(message: types.Message):
     global step
     step=1
-    await message.reply("Бот IZItravel\n Здесь Вы можете получить информацию \n О музеях и турах\nВведите город посещения")
+    await message.reply("Вас приветствует, Бот, "Во все тяжкие"! Введите город посещения, для получения информации на выбор")
 
 @dp.message_handler(commands=['Главная'])
 async def command_start(message: types.Message):
